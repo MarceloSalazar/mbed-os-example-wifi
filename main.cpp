@@ -24,8 +24,8 @@ OdinWiFiInterface wifi;
 #if !TARGET_FF_ARDUINO
 #error [NOT_SUPPORTED] Only Arduino form factor devices are supported at this time
 #endif
-#include "ESP8266Interface.h"
-ESP8266Interface wifi(D1, D0);
+#include "SpwfInterface.h"
+SpwfSAInterface  wifi(MBED_CONF_APP_WIFI_TX, MBED_CONF_APP_WIFI_RX, true);
 #endif
 
 const char *sec2str(nsapi_security_t sec)

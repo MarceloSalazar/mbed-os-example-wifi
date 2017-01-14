@@ -2,11 +2,19 @@
     "config": {
         "wifi-ssid": {
             "help": "WiFi SSID",
-            "value": "\"SSID\""
+            "value": "\"TP-LINK_2.4GHz_6A7504\""
         },
         "wifi-password": {
             "help": "WiFi Password",
-            "value": "\"Password\""
+            "value": "\"22994593\""
+        },
+        "wifi-tx": {
+            "help": "TX pin for serial connection to external device",
+            "value": "D8"
+        },
+        "wifi-rx": {
+            "help": "RX pin for serial connection to external device",
+            "value": "D2"
         }
     },
     "target_overrides": {
